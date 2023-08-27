@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=família=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+
+
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #F76723;
+    color: black;
+
+    box-sizing: border-box; 
+    background-image: url(lampada\ gray2.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    color: var(--cor-secundaria); } 
+
+
+
+
+
+.titulo-destaque {
+    color: #F6C54A;
+}
+
+.cabecalho {
+    padding: 0% 15% 0% 0%;
+}
+
+
+.cabecalho__menu__link {
+    font-family: 'Josefin+Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F6C54A;
+    padding: 5px 0px 105px 8%;
+    text-decoration: none;
+  
+}
+
+.cabecalho__menu {
+    color: #F6C54A;
+    display: flex
+    
+}
+
+.apresentacao {
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+
+.minha_apresentacao {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0%
+}
+
+.minha_apresentacao_titulo {
+    font-size: 48px;
+    font-family: 'Handjet', sans-serif;
+    color: #E8E6DC;
+    
+}
+
+.minha_apresentacao_texto {
+    font-size: 35px;
+    font-family: 'Handjet:wght@500', sans-serif;
+    color: #E8E6DC;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    }
+
+ .apresentacao__links__subtitulo {
+        font-family: 'Handjet:wght@500', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #E8E6DC;
+    }
+
+.apresentacao__links__link {
+    /background-color: #22D4FD;
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #F6E694;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Handjet:wght@500', sans-serif;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    padding: 5%;
+}
+
+.apresentacao_conteudo_texto:hover {
+    background-color: #F76723;
+}
+
+.rodape {
+    padding: 22px;
+    color: black;
+    background-color:#F6E694;
+    text-align: center;
+    font-family: 'Handjet', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+
+    .cabecalho__menu {
+        padding: 6%;
+
+    }
+    }
+}
+
+    .form {
+        width: 750px; 
+        display:flex;
+        flex-direction: column;
+        padding: 8% 15%;
+              
+        
+        gap: 14px;
+     }
+
+
+     .form h2 {
+        color: #F6C54A;
+        font-size: 32px;
+        margin-bottom: 16px;
+        
+
+        font-family: 'handjet', sans-serif;
+     }
+     
+
+     .form label {
+        font-size: 28px;
+        margin-bottom: 8px;
+        color: #F6C54A;
+        font-family: 'handjet', sans-serif;
+
+     }
+
+     .form input {
+        height: 40px;
+        
+     }
+
+     .form input, .form textarea {
+        background-color: white;
+        font-size: 20px;
+        border: 2px solid #F6C54A;
+        border-radius: 12px;
+        padding: 16px;
+        
+
+     }
+
+     .form button {
+        margin-top: 24px;
+        margin-bottom: 200px;
+        height: 40px;
+        background-color: #F6C54A;
+        color: Grey;
+        font-size: 23px;
+        border: none;
+        border-radius: 12px;
+        
+     }
+
+     .form input:focus, .form textarea:focus {
+        outline: 2px solid #F76723;
+     }
+   
+
+
+   
+
+     
+}

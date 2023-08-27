@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="habilidades.html">Habilidades</a>
+            <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+  
+
+    <main>
+       
+        <form class="form" action="https://formsubmit.co/fernandoss@msn.com" method="POST">
+
+            <div>
+                <img class="apresentacao__imagem" src="Minha foto3.png" alt="Foto de Fernando">
+            </div>
+           
+            <h2>Entre em contato comigo:</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" name="name" placeholder="Preencha seu nome" id="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="seuemail@email.com.br" id="email" required>
+
+            <label for="textarea"></label>
+            <textarea name="message" placeholder="Sua mensagem" id="textarea" cols="30" rows="10"></textarea>
+
+            <input type="hidden" name="next" value="link do Github">
+
+            <button type="submit">Enviar</button>
+       </form>
+    </main>
+
+    
+   
+
+    <footer class="rodape">
+        <p>Desenvolvido por FSS</p>
+        <img class="roda_pe_alura" src="Logo_Alura_Include.svg">
+    </footer>
+        
+</body>
+</html>
